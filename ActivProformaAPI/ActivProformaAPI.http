@@ -1,0 +1,6 @@
+@ActivProformaAPI_HostAddress = http://localhost:5228
+
+GET {{ActivProformaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

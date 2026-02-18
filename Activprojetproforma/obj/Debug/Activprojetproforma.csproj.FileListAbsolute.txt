@@ -72,3 +72,7 @@ C:\Users\rebec\source\repos\Activprojetproforma\Activprojetproforma\obj\Debug\Ac
 C:\Users\rebec\source\repos\Activprojetproforma\Activprojetproforma\obj\Debug\Activpro.8CAA352B.Up2Date
 C:\Users\rebec\source\repos\Activprojetproforma\Activprojetproforma\obj\Debug\Activprojetproforma.dll
 C:\Users\rebec\source\repos\Activprojetproforma\Activprojetproforma\obj\Debug\Activprojetproforma.pdb
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\Activprojetproforma\obj\Debug\Activprojetproforma.csproj.AssemblyReference.cache
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\Activprojetproforma\obj\Debug\Activprojetproforma.csproj.CoreCompileInputs.cache
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\Activprojetproforma\obj\Debug\Activprojetproforma.dll
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\Activprojetproforma\obj\Debug\Activprojetproforma.pdb
