@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ActivProformaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+378b6ebc49594e5a32d3d1be97b823eb71f24d8c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4295a0008e58fd1a34cb6bdba40111f13132bc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ActivProformaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ActivProformaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

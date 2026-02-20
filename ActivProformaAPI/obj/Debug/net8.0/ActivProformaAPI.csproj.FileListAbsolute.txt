@@ -127,10 +127,15 @@ C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaA
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\ActivPro.DD85B490.Up2Date
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\ActivProformaAPI.dll
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\refint\ActivProformaAPI.dll
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\ActivProformaAPI.pdb
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\ActivProformaAPI.genruntimeconfig.cache
 C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\ref\ActivProformaAPI.dll
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\ActivProformaAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Messou\Documents\WorkSpace\GestionProforma\ActivProforma\ActivProformaAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

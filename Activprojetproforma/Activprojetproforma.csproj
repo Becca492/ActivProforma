@@ -113,7 +113,14 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="assets\css\index.css" />
+    <Content Include="assets\js\Api.js" />
+    <Content Include="assets\js\App.js" />
+    <Content Include="assets\js\Clients.js" />
+    <Content Include="assets\js\Config.js" />
     <Content Include="assets\js\index.js" />
+    <Content Include="assets\js\Proformas.js" />
+    <Content Include="assets\js\Ravitaillements.js" />
+    <Content Include="assets\js\Utils.js" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -231,8 +238,6 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controller\ArticleController.cs" />
-    <Compile Include="Controller\DefaultController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

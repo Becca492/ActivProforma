@@ -1,4 +1,4 @@
-﻿* {
+﻿﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -668,16 +668,16 @@ body {
 }
 
 .btn-whatsapp {
-    background: #25D366;
+    background: #25d366;
     color: white;
 }
 
 .btn-email:hover {
-    background: #B23121;
+    background: #b23121;
 }
 
 .btn-whatsapp:hover {
-    background: #128C7E;
+    background: #128c7e;
 }
 
 .btn-email {

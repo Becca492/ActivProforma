@@ -1,16 +1,12 @@
-﻿
-
-<!doctype html>
+﻿<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gestion proforma</title>
     <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
     <div class="app">
@@ -35,10 +31,11 @@
         </div>
 
         <div class="main-content">
+            <!-- DASHBOARD -->
             <div id="page-dashboard" class="page active">
                 <div class="page-header">
                     <h2>Tableau de bord</h2>
-                    <div style="display: flex; gap: 16px">
+                    <div style="display:flex;gap:16px;">
                         <button class="btn-primary" onclick="openOffcanvas('client')">
                             <i class="fas fa-user-plus"></i> Nouveau client
                         </button>
@@ -47,50 +44,37 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <div class="stat-info">
-                            <h4>Clients</h4>
-                            <div class="stat-number" id="stats-clients">0</div>
-                        </div>
+                        <div class="stat-info"><h4>Clients</h4><div class="stat-number" id="stats-clients">…</div></div>
                         <div class="stat-icon"><i class="fas fa-users"></i></div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-info">
-                            <h4>Proformas</h4>
-                            <div class="stat-number" id="stats-proformas">0</div>
-                        </div>
+                        <div class="stat-info"><h4>Proformas</h4><div class="stat-number" id="stats-proformas">…</div></div>
                         <div class="stat-icon"><i class="fas fa-file-invoice"></i></div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-info">
-                            <h4>Lignes ravitaillement</h4>
-                            <div class="stat-number" id="stats-ravitaillements">0</div>
-                        </div>
+                        <div class="stat-info"><h4>Lignes ravitaillement</h4><div class="stat-number" id="stats-ravitaillements">…</div></div>
                         <div class="stat-icon"><i class="fas fa-truck"></i></div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-info">
-                            <h4>Montant TTC</h4>
-                            <div class="stat-number" id="stats-ttc">0 FCFA</div>
-                        </div>
-                        <div class="stat-icon"><i class="fas fa-euro-sign"></i></div>
+                        <div class="stat-info"><h4>Proforma payé</h4><div class="stat-number" id="stats-proformas-payees">…</div></div>
+                        <div class="stat-icon"><i class="fas fa-check-circle"></i></div>
                     </div>
                 </div>
-
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px">
-                    <div style="background: white; border-radius: 24px; padding: 28px">
-                        <h3 style="margin-bottom: 20px">Derniers clients</h3>
-                        <div id="dashboard-clients"></div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;">
+                    <div style="background:white;border-radius:24px;padding:28px;">
+                        <h3 style="margin-bottom:20px;">Derniers clients</h3>
+                        <div id="dashboard-clients"><p style="text-align:center;padding:20px;color:#64748b;">Chargement…</p></div>
                     </div>
-                    <div style="background: white; border-radius: 24px; padding: 28px">
-                        <h3 style="margin-bottom: 20px">Dernières proformas</h3>
-                        <div id="dashboard-proformas"></div>
+                    <div style="background:white;border-radius:24px;padding:28px;">
+                        <h3 style="margin-bottom:20px;">Dernières proformas</h3>
+                        <div id="dashboard-proformas"><p style="text-align:center;padding:20px;color:#64748b;">Chargement…</p></div>
                     </div>
                 </div>
             </div>
 
+            <!-- CLIENTS -->
             <div id="page-clients" class="page">
                 <div class="page-header">
                     <h2>Gestion des clients</h2>
@@ -101,6 +85,7 @@
                 <div class="clients-grid" id="clients-grid"></div>
             </div>
 
+            <!-- PROFORMAS -->
             <div id="page-proformas" class="page">
                 <div class="page-header">
                     <h2>Gestion des proformas</h2>
@@ -111,6 +96,7 @@
                 <div class="proformas-grid" id="proformas-grid"></div>
             </div>
 
+            <!-- RAVITAILLEMENTS -->
             <div id="page-ravitaillements" class="page">
                 <div class="page-header">
                     <h2>Lignes de ravitaillement</h2>
@@ -123,6 +109,7 @@
         </div>
     </div>
 
+    <!-- OFFCANVAS -->
     <div id="offcanvas" class="offcanvas">
         <div class="offcanvas-header">
             <h3 id="offcanvas-title">Nouveau client</h3>
@@ -131,14 +118,22 @@
         <div id="offcanvas-content"></div>
     </div>
 
-    <div id="proforma-view-page" style="display: none">
-        <div class="main-content" style="max-width: 1000px; margin: 40px auto; grid-template-columns: 1fr">
+    <!-- PAGE PROFORMA PARTAGÉE -->
+    <div id="proforma-view-page" style="display:none;">
+        <div class="main-content" style="max-width:1000px;margin:40px auto;grid-template-columns:1fr;">
             <div class="proforma-view-page" id="proforma-view-content"></div>
         </div>
     </div>
 
     <div id="notification" class="notification"></div>
 
-    <script src="assets/js/index.js"></script>
+    <!-- Scripts — ordre important -->
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/utils.js"></script>
+    <script src="assets/js/clients.js"></script>
+    <script src="assets/js/ravitaillements.js"></script>
+    <script src="assets/js/proformas.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

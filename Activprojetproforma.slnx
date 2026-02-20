@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="ActivProformaAPI/ActivProformaAPI.csproj" Id="398ed051-f546-480a-be8e-0e2083d21e99" />
-  <Project Path="Activprojetproforma/Activprojetproforma.csproj" Id="221bd0b2-5e03-41a9-9108-2a95c2238caf" />
+  <Project Path="Activprojetproforma/Activprojetproforma.csproj" Id="221bd0b2-5e03-41a9-9108-2a95c2238caf">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
 </Solution>
